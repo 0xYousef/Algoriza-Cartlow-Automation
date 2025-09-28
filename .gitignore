@@ -1,0 +1,26 @@
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.project
+.classpath
+.settings/
+bin/
+
+.vscode/
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+*.class
+*.tmp
+*.swp
