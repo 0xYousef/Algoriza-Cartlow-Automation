@@ -1,0 +1,25 @@
+{
+  "selected products": {
+    "uae": [
+      {
+        "category": "Laptops",
+        "title": "Apple MacBook Pro 15-Inch A1398 (Mid 2014) – Intel Core i7 2.2GHz",
+        "quantity": 1,
+        "properties": {
+          "condition": "Good"
+        }
+      },
+      {
+        "category": "Smartwatches",
+        "title": "Apple Watch Series 6 (40mm, GPS + Cellular) Gold Aluminum Case with Pink Sand Sport Band",
+        "quantity": 2,
+        "properties": {
+          "condition": "Good",
+          "connectivity": "GPS and Cellular",
+          "color": "Silver",
+          "size": "44mm"
+        }
+      }
+    ]
+  }
+}
