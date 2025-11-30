@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
@@ -18,16 +19,17 @@ public class CategoryComponent  {
     private static final Logger log = LoggerFactory.getLogger(CategoryComponent.class);
     private final WebDriver driver;
     private final WebDriverWait wait;
-
+    private Actions actions;
     public CategoryComponent(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        actions = new Actions(driver);
     }
 
     public ProductsPage selectCategory(String categoryName) {
         String popularCategoryXpath = String.format("//ul[contains(@class, 'overflow-x-auto')]//a[contains(text(), '%s')]", categoryName);
         WebElement categoryElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(popularCategoryXpath)));
-        categoryElement.click();
+        actions.moveToElement(categoryElement,0,0).click().perform();
         log.info("Selected Category: {}", categoryName);
         return new ProductsPage(driver);
     }

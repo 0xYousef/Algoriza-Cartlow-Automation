@@ -1,18 +1,10 @@
 package org.algoriza;
 
-import org.algoriza.dto.AccountDTO;
-import org.algoriza.dto.ProductDTO;
+
 import org.algoriza.repository.AccountsRepository;
 import org.algoriza.repository.ProductsRepository;
-import org.algoriza.utils.RandomUtil;
-import org.algoriza.warpper.Accounts;
-import org.algoriza.warpper.SelectedProducts;
-import org.algoriza.utils.JsonParser;
 
 import java.io.IOException;
-import java.util.List;
-
-import static org.algoriza.utils.RandomUtil.getRandomElement;
 
 public class Main {
     public static void main(String[] args) throws IOException {

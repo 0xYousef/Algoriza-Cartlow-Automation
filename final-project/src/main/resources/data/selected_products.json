@@ -3,7 +3,7 @@
     "uae": [
       {
         "category": "Laptops",
-        "title": "Apple MacBook Pro 15-Inch A1398 (Mid 2014) – Intel Core i7 2.2GHz",
+        "title": "Dell Latitude E7240 Ultrabook | Intel(R) Core(TM) i5-4th Generation",
         "quantity": 1,
         "properties": {
           "condition": "Good"
@@ -11,13 +11,23 @@
       },
       {
         "category": "Smartwatches",
-        "title": "Apple Watch Series 6 (40mm, GPS + Cellular) Gold Aluminum Case with Pink Sand Sport Band",
+        "title": "Galaxy Watch6 R965 47mm LTE - Black",
         "quantity": 2,
         "properties": {
           "condition": "Good",
           "connectivity": "GPS and Cellular",
           "color": "Silver",
           "size": "44mm"
+        }
+      },
+      {
+        "category": "Smartwatches",
+        "title": "Fire-boltt 360 SPO2 full touch large display round smart watch with in-built games, 8 days battery life",
+        "quantity": 2,
+        "properties": {
+          "condition": "Very Good",
+          "color": "Gold",
+          "size": "One Size"
         }
       }
     ]

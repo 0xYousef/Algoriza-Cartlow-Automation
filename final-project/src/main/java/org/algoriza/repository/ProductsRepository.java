@@ -6,8 +6,6 @@ import org.algoriza.dto.ProductDTO;
 import org.algoriza.utils.JsonParser;
 import org.algoriza.utils.RandomUtil;
 
-import java.io.File;
-import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 

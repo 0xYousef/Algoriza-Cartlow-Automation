@@ -13,21 +13,19 @@ import java.util.Map;
 
 public class ProductPage extends BasePage {
 
-    private WebDriver driver;
     private WebDriverWait wait;
     private Actions actions;
 
     public ProductPage(WebDriver driver) {
         super(driver);
-        this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         this.actions = new Actions(driver);
     }
 
     public ProductPage setQuantity(int quantity) {
-        String quantityCss = "p.w-2\\.5";
-        String increaseCss = "span.icon-plus";
-        String decreaseCss = "span.icon-minus";
+        // String quantityCss = "p.w-2\\.5";
+        // String increaseCss = "span.icon-plus";
+        // String decreaseCss = "span.icon-minus";
 
         // Alternative more stable approach using parent context
         WebElement quantityContainer = wait.until(ExpectedConditions.visibilityOfElementLocated(

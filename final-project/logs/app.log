@@ -1,0 +1,48 @@
+2025-12-01 00:32:01 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-01 00:32:01 [main] INFO  o.a.repository.AccountsRepository - Fetching Random Account
+2025-12-01 00:32:23 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-01 00:32:24 [main] INFO  o.a.repository.AccountsRepository - Fetching Random Account
+2025-12-01 00:40:58 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-01 00:40:58 [main] INFO  o.a.repository.AccountsRepository - Fetching Random Account
+2025-12-01 00:51:24 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-01 00:51:24 [main] INFO  o.a.repository.AccountsRepository - Fetching Random Account
+2025-12-01 00:51:32 [main] INFO  org.algoriza.pages.BasePage - open cartlow website
+2025-12-01 00:51:38 [main] INFO  org.algoriza.pages.BasePage - page title: Cartlow UAE - Buy Electronics, Gadgets & More at Lowest Prices
+2025-12-01 00:51:38 [main] INFO  o.algoriza.components.header.Header - verify Header is Loaded
+2025-12-01 00:51:43 [main] INFO  o.a.c.header.CategoryComponent - Selected Category: Laptops
+2025-12-01 00:51:43 [main] INFO  org.algoriza.pages.ProductsPage - Searching for product: Dell Latitude E7240 Ultrabook | Intel(R) Core(TM) i5-4th Generation
+2025-12-01 00:52:03 [main] WARN  org.algoriza.pages.ProductsPage - No more products to load. Product 'Dell Latitude E7240 Ultrabook | Intel(R) Core(TM) i5-4th Generation' not found.
+2025-12-01 00:52:19 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-01 00:52:20 [main] INFO  o.a.repository.AccountsRepository - Fetching Random Account
+2025-12-01 00:52:23 [main] INFO  org.algoriza.pages.BasePage - open cartlow website
+2025-12-01 00:52:29 [main] INFO  org.algoriza.pages.BasePage - page title: Cartlow UAE - Buy Electronics, Gadgets & More at Lowest Prices
+2025-12-01 00:52:29 [main] INFO  o.algoriza.components.header.Header - verify Header is Loaded
+2025-12-01 00:52:32 [main] INFO  o.a.c.header.CategoryComponent - Selected Category: Laptops
+2025-12-01 00:52:32 [main] INFO  org.algoriza.pages.ProductsPage - Searching for product: Dell Latitude E7240 Ultrabook | Intel(R) Core(TM) i5-4th Generation
+2025-12-01 00:53:03 [main] WARN  org.algoriza.pages.ProductsPage - No more products to load. Product 'Dell Latitude E7240 Ultrabook | Intel(R) Core(TM) i5-4th Generation' not found.
+2025-12-01 01:00:06 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-01 01:00:06 [main] INFO  o.a.repository.AccountsRepository - Fetching Random Account
+2025-12-01 01:00:07 [main] INFO  org.algoriza.pages.BasePage - open cartlow website
+2025-12-01 01:00:13 [main] INFO  org.algoriza.pages.BasePage - page title: Cartlow UAE - Buy Electronics, Gadgets & More at Lowest Prices
+2025-12-01 01:00:13 [main] INFO  o.algoriza.components.header.Header - verify Header is Loaded
+2025-12-01 01:00:26 [main] ERROR org.algoriza.pages.BaseAuthPage - Sign in or create account not found
+2025-12-01 01:01:46 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-01 01:01:47 [main] INFO  o.a.repository.AccountsRepository - Fetching Random Account
+2025-12-01 01:01:47 [main] INFO  org.algoriza.pages.BasePage - open cartlow website
+2025-12-01 01:01:54 [main] INFO  org.algoriza.pages.BasePage - page title: Cartlow UAE - Buy Electronics, Gadgets & More at Lowest Prices
+2025-12-01 01:01:54 [main] INFO  o.algoriza.components.header.Header - verify Header is Loaded
+2025-12-01 01:02:05 [main] ERROR org.algoriza.pages.BaseAuthPage - Sign in or create account not found

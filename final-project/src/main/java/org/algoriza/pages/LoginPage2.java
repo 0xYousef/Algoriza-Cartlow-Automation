@@ -1,9 +1,6 @@
 package org.algoriza.pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +13,8 @@ public class LoginPage2 extends BaseAuthPage {
     @Override
     public String getTitle() {
         String titleXpath = "//h1[contains(text(), 'Sign In')]";
+        log.info("Title Xpath: {}",titleXpath);
+
         return getElementText(titleXpath, "Sign In Title");
     }
 

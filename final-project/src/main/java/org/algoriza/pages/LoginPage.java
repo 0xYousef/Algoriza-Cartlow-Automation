@@ -14,6 +14,7 @@ public class LoginPage extends BaseAuthPage {
     @Override
     public String getTitle() {
         String titleXpath = "//h1[contains(text(), 'Sign in or create account')]";
+        log.info(titleXpath);
         return getElementText(titleXpath, "Title");
     }
 
